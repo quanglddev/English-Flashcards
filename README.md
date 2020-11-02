@@ -11,7 +11,7 @@
 ## Usage
 Type all the words you want to learn on the left text box and tap 'Go'. After that, a study deck will be created with the name you specified on the right hand side. Open it and scroll up and down to learn the definition of the words, practice spelling with audio, learn through example, etc.
 
-### Input wanted words | Create a study deck | View study decks
+Input wanted words | Create a study deck | View study decks
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/quanglddev/English-Flashcards/blob/media/landing_screen.PNG?raw=true) | ![](https://github.com/quanglddev/English-Flashcards/blob/media/create_box.PNG?raw=true) | ![](https://github.com/quanglddev/English-Flashcards/blob/media/landing_screen_with_box.PNG?raw=true)
 
