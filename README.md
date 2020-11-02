@@ -12,23 +12,23 @@
 Type all the words you want to learn on the left text box and tap 'Go'. After that, a study deck will be created with the name you specified on the right hand side. Open it and scroll up and down to learn the definition of the words, practice spelling with audio, learn through example, etc.
 
 ### Input the words you want the learn
-![](https://github.com/quanglddev/English-Flashcards/blob/media/landing_screen.PNG?raw=true | width=100)
+![](https://github.com/quanglddev/English-Flashcards/blob/media/landing_screen.PNG?raw=true)
 
 ### Create a study deck
-![](https://github.com/quanglddev/English-Flashcards/blob/media/create_box.PNG?raw=true | width=100)
+![](https://github.com/quanglddev/English-Flashcards/blob/media/create_box.PNG?raw=true)
 
 ### View study decks
-![](https://github.com/quanglddev/English-Flashcards/blob/media/landing_screen_with_box.PNG?raw=true | width=100)
+![](https://github.com/quanglddev/English-Flashcards/blob/media/landing_screen_with_box.PNG?raw=true)
 
 ### STUDY
 Word 1 | Word 2 | Word 3
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/quanglddev/English-Flashcards/blob/media/study_1.PNG?raw=true | width=100) | ![](https://github.com/quanglddev/English-Flashcards/blob/media/IMG_8409_2.PNG?raw=true | width=100) | ![](https://github.com/quanglddev/English-Flashcards/blob/media/study_3.PNG?raw=true | width=100)
+![](https://github.com/quanglddev/English-Flashcards/blob/media/study_1.PNG?raw=true) | ![](https://github.com/quanglddev/English-Flashcards/blob/media/IMG_8409_2.PNG?raw=true) | ![](https://github.com/quanglddev/English-Flashcards/blob/media/study_3.PNG?raw=true)
 
 ### Random UI Color feature
 Toggle Feature | Showcase
 :-------------------------:|:-------------------------:
-![](https://github.com/quanglddev/English-Flashcards/blob/media/settings.PNG?raw=true | width=100) | ![](https://github.com/quanglddev/English-Flashcards/blob/media/random_ui_color.PNG?raw=true | width=100)
+![](https://github.com/quanglddev/English-Flashcards/blob/media/settings.PNG?raw=true) | ![](https://github.com/quanglddev/English-Flashcards/blob/media/random_ui_color.PNG?raw=true)
 
 ### Development
 Want to contribute? Great!
