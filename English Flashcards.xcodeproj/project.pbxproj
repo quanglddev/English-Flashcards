@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		40902309254FA0E40030B80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902308254FA0E40030B80E /* AppDelegate.swift */; };
 		4090230B254FA0E40030B80E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090230A254FA0E40030B80E /* SceneDelegate.swift */; };
-		4090230D254FA0E40030B80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090230C254FA0E40030B80E /* ViewController.swift */; };
+		4090230D254FA0E40030B80E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090230C254FA0E40030B80E /* HomeController.swift */; };
 		40902310254FA0E40030B80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4090230E254FA0E40030B80E /* Main.storyboard */; };
 		40902312254FA0E70030B80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40902311254FA0E70030B80E /* Assets.xcassets */; };
 		40902315254FA0E70030B80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40902313254FA0E70030B80E /* LaunchScreen.storyboard */; };
+		40902330254FAEB70030B80E /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090232F254FAEB70030B80E /* Box.swift */; };
+		40902333254FAED90030B80E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902332254FAED90030B80E /* Card.swift */; };
+		4090233D254FAF6B0030B80E /* HCTableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902336254FAF6A0030B80E /* HCTableViewHelper.swift */; };
+		4090233E254FAF6B0030B80E /* HC+Clear+Load+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902337254FAF6A0030B80E /* HC+Clear+Load+Helper.swift */; };
+		4090233F254FAF6B0030B80E /* DCSearchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902338254FAF6A0030B80E /* DCSearchHelper.swift */; };
+		40902340254FAF6B0030B80E /* HCUIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902339254FAF6B0030B80E /* HCUIHelper.swift */; };
+		40902341254FAF6B0030B80E /* HCTextViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090233A254FAF6B0030B80E /* HCTextViewHelper.swift */; };
+		40902342254FAF6B0030B80E /* AppStateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090233B254FAF6B0030B80E /* AppStateHelper.swift */; };
+		40902343254FAF6B0030B80E /* HCSegueHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090233C254FAF6B0030B80E /* HCSegueHelper.swift */; };
+		40902348254FAF9E0030B80E /* String+INDEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902346254FAF9E0030B80E /* String+INDEX.swift */; };
+		40902349254FAF9E0030B80E /* TextView+LinesCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902347254FAF9E0030B80E /* TextView+LinesCount.swift */; };
+		4090234F254FB0530030B80E /* DetailCardTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090234E254FB0530030B80E /* DetailCardTVC.swift */; };
+		40902352254FB07C0030B80E /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902351254FB07C0030B80E /* SettingsTVC.swift */; };
+		40902355254FB09D0030B80E /* BoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902354254FB09D0030B80E /* BoxCell.swift */; };
+		40902358254FB0B30030B80E /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40902357254FB0B30030B80E /* CardCell.swift */; };
+		4090235C254FB0F40030B80E /* OXFORD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090235B254FB0F40030B80E /* OXFORD.swift */; };
+		57DE6A954A5EAF3F95B227A3 /* Pods_English_Flashcards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1665934B7AC3738FCBE7C4B3 /* Pods_English_Flashcards.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1665934B7AC3738FCBE7C4B3 /* Pods_English_Flashcards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_English_Flashcards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40902305254FA0E40030B80E /* English Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "English Flashcards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40902308254FA0E40030B80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4090230A254FA0E40030B80E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4090230C254FA0E40030B80E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4090230C254FA0E40030B80E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		4090230F254FA0E40030B80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40902311254FA0E70030B80E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40902314254FA0E70030B80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40902316254FA0E70030B80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4090232F254FAEB70030B80E /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		40902332254FAED90030B80E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		40902336254FAF6A0030B80E /* HCTableViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCTableViewHelper.swift; sourceTree = "<group>"; };
+		40902337254FAF6A0030B80E /* HC+Clear+Load+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HC+Clear+Load+Helper.swift"; sourceTree = "<group>"; };
+		40902338254FAF6A0030B80E /* DCSearchHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCSearchHelper.swift; sourceTree = "<group>"; };
+		40902339254FAF6B0030B80E /* HCUIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCUIHelper.swift; sourceTree = "<group>"; };
+		4090233A254FAF6B0030B80E /* HCTextViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCTextViewHelper.swift; sourceTree = "<group>"; };
+		4090233B254FAF6B0030B80E /* AppStateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStateHelper.swift; sourceTree = "<group>"; };
+		4090233C254FAF6B0030B80E /* HCSegueHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCSegueHelper.swift; sourceTree = "<group>"; };
+		40902346254FAF9E0030B80E /* String+INDEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+INDEX.swift"; sourceTree = "<group>"; };
+		40902347254FAF9E0030B80E /* TextView+LinesCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextView+LinesCount.swift"; sourceTree = "<group>"; };
+		4090234E254FB0530030B80E /* DetailCardTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailCardTVC.swift; path = "English Flashcards/Custom Cells/DetailCardTVC.swift"; sourceTree = SOURCE_ROOT; };
+		40902351254FB07C0030B80E /* SettingsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
+		40902354254FB09D0030B80E /* BoxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BoxCell.swift; path = "English Flashcards/Controllers/BoxCell.swift"; sourceTree = SOURCE_ROOT; };
+		40902357254FB0B30030B80E /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		4090235B254FB0F40030B80E /* OXFORD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OXFORD.swift; sourceTree = "<group>"; };
+		45627BB0FB7EC7ADD02B2E3C /* Pods-English Flashcards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-English Flashcards.debug.xcconfig"; path = "Target Support Files/Pods-English Flashcards/Pods-English Flashcards.debug.xcconfig"; sourceTree = "<group>"; };
+		A863CD73ECB2D35A718116D0 /* Pods-English Flashcards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-English Flashcards.release.xcconfig"; path = "Target Support Files/Pods-English Flashcards/Pods-English Flashcards.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DE6A954A5EAF3F95B227A3 /* Pods_English_Flashcards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		232D8FE89EC535A8698C173F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45627BB0FB7EC7ADD02B2E3C /* Pods-English Flashcards.debug.xcconfig */,
+				A863CD73ECB2D35A718116D0 /* Pods-English Flashcards.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		350B1081647E7DF9CC0023C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1665934B7AC3738FCBE7C4B3 /* Pods_English_Flashcards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		409022FC254FA0E40030B80E = {
 			isa = PBXGroup;
 			children = (
 				40902307254FA0E40030B80E /* English Flashcards */,
 				40902306254FA0E40030B80E /* Products */,
+				232D8FE89EC535A8698C173F /* Pods */,
+				350B1081647E7DF9CC0023C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +112,79 @@
 		40902307254FA0E40030B80E /* English Flashcards */ = {
 			isa = PBXGroup;
 			children = (
+				4090235A254FB0BB0030B80E /* Classes */,
+				4090234D254FB0040030B80E /* Custom Cells */,
+				4090234B254FAFAE0030B80E /* Controllers */,
+				40902335254FAF3B0030B80E /* Extensions */,
+				4090232E254FAE940030B80E /* Data Modal */,
 				40902308254FA0E40030B80E /* AppDelegate.swift */,
 				4090230A254FA0E40030B80E /* SceneDelegate.swift */,
-				4090230C254FA0E40030B80E /* ViewController.swift */,
 				4090230E254FA0E40030B80E /* Main.storyboard */,
 				40902311254FA0E70030B80E /* Assets.xcassets */,
 				40902313254FA0E70030B80E /* LaunchScreen.storyboard */,
 				40902316254FA0E70030B80E /* Info.plist */,
 			);
 			path = "English Flashcards";
+			sourceTree = "<group>";
+		};
+		4090232E254FAE940030B80E /* Data Modal */ = {
+			isa = PBXGroup;
+			children = (
+				4090232F254FAEB70030B80E /* Box.swift */,
+				40902332254FAED90030B80E /* Card.swift */,
+			);
+			path = "Data Modal";
+			sourceTree = "<group>";
+		};
+		40902335254FAF3B0030B80E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40902345254FAF870030B80E /* Specific */,
+				4090233B254FAF6B0030B80E /* AppStateHelper.swift */,
+				40902338254FAF6A0030B80E /* DCSearchHelper.swift */,
+				40902337254FAF6A0030B80E /* HC+Clear+Load+Helper.swift */,
+				4090233C254FAF6B0030B80E /* HCSegueHelper.swift */,
+				40902336254FAF6A0030B80E /* HCTableViewHelper.swift */,
+				4090233A254FAF6B0030B80E /* HCTextViewHelper.swift */,
+				40902339254FAF6B0030B80E /* HCUIHelper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40902345254FAF870030B80E /* Specific */ = {
+			isa = PBXGroup;
+			children = (
+				40902346254FAF9E0030B80E /* String+INDEX.swift */,
+				40902347254FAF9E0030B80E /* TextView+LinesCount.swift */,
+			);
+			path = Specific;
+			sourceTree = "<group>";
+		};
+		4090234B254FAFAE0030B80E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4090234E254FB0530030B80E /* DetailCardTVC.swift */,
+				40902351254FB07C0030B80E /* SettingsTVC.swift */,
+				4090230C254FA0E40030B80E /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4090234D254FB0040030B80E /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				40902354254FB09D0030B80E /* BoxCell.swift */,
+				40902357254FB0B30030B80E /* CardCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		4090235A254FB0BB0030B80E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4090235B254FB0F40030B80E /* OXFORD.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40902319254FA0E70030B80E /* Build configuration list for PBXNativeTarget "English Flashcards" */;
 			buildPhases = (
+				F6878460BA6C4D935675F454 /* [CP] Check Pods Manifest.lock */,
 				40902301254FA0E40030B80E /* Sources */,
 				40902302254FA0E40030B80E /* Frameworks */,
 				40902303254FA0E40030B80E /* Resources */,
+				0CC9ECFA090F7E70234B4044 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +254,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CC9ECFA090F7E70234B4044 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-English Flashcards/Pods-English Flashcards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-English Flashcards/Pods-English Flashcards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-English Flashcards/Pods-English Flashcards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6878460BA6C4D935675F454 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-English Flashcards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40902301254FA0E40030B80E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4090230D254FA0E40030B80E /* ViewController.swift in Sources */,
+				40902355254FB09D0030B80E /* BoxCell.swift in Sources */,
+				40902340254FAF6B0030B80E /* HCUIHelper.swift in Sources */,
+				40902348254FAF9E0030B80E /* String+INDEX.swift in Sources */,
+				4090233D254FAF6B0030B80E /* HCTableViewHelper.swift in Sources */,
+				40902342254FAF6B0030B80E /* AppStateHelper.swift in Sources */,
+				4090230D254FA0E40030B80E /* HomeController.swift in Sources */,
+				4090233E254FAF6B0030B80E /* HC+Clear+Load+Helper.swift in Sources */,
+				4090235C254FB0F40030B80E /* OXFORD.swift in Sources */,
+				40902341254FAF6B0030B80E /* HCTextViewHelper.swift in Sources */,
+				40902330254FAEB70030B80E /* Box.swift in Sources */,
+				4090233F254FAF6B0030B80E /* DCSearchHelper.swift in Sources */,
+				40902333254FAED90030B80E /* Card.swift in Sources */,
+				40902352254FB07C0030B80E /* SettingsTVC.swift in Sources */,
 				40902309254FA0E40030B80E /* AppDelegate.swift in Sources */,
+				4090234F254FB0530030B80E /* DetailCardTVC.swift in Sources */,
+				40902343254FAF6B0030B80E /* HCSegueHelper.swift in Sources */,
 				4090230B254FA0E40030B80E /* SceneDelegate.swift in Sources */,
+				40902349254FAF9E0030B80E /* TextView+LinesCount.swift in Sources */,
+				40902358254FB0B30030B80E /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +463,14 @@
 		};
 		4090231A254FA0E70030B80E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45627BB0FB7EC7ADD02B2E3C /* Pods-English Flashcards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6SZFEQ64K;
 				INFOPLIST_FILE = "English Flashcards/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +484,14 @@
 		};
 		4090231B254FA0E70030B80E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A863CD73ECB2D35A718116D0 /* Pods-English Flashcards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6SZFEQ64K;
 				INFOPLIST_FILE = "English Flashcards/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
